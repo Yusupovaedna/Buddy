@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/title_h2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <TextView
+        android:id="@+id/textview_first"
+        android:layout_width="286dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="92dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="Which documents do you have?"
+        android:textAlignment="textStart"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonConfirm"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/coralr"
+        android:fontFamily="@font/montserrat"
+        android:text="Confirm"
+        android:textSize="12dp"
+        app:cornerRadius="20dp"
+        app:iconTint="@color/coralr"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.36" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="294dp"
+        android:layout_height="304dp"
+        android:layout_marginTop="52dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_first">
+
+
+    <Button
+            android:id="@+id/button_hiv"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="13dp"
+            android:backgroundTint="@color/warm_grey"
+            android:fontFamily="sans-serif"
+            android:text="HIV test certificate"
+            android:textColor="#0B0A0A"
+            android:textSize="12sp"
+            app:cornerRadius="20dp"
+            app:iconTint="@color/warm_grey" />
+
+        <Button
+            android:id="@+id/button_xray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="13dp"
+            android:backgroundTint="@color/warm_grey"
+            android:fontFamily="sans-serif"
+            android:text="Chest X-ray report (in English or Russian)"
+            android:textColor="#0B0A0A"
+            android:textSize="12sp"
+            app:cornerRadius="20dp"
+            app:iconTint="@color/warm_grey" />
+
+        <Button
+            android:id="@+id/button_vaccination"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="13dp"
+            android:backgroundTint="@color/warm_grey"
+            android:fontFamily="sans-serif"
+            android:text="Vaccination certificate"
+            android:textColor="#0B0A0A"
+            android:textSize="12sp"
+            app:cornerRadius="20dp"
+            app:iconTint="@color/warm_grey" />
+
+        <Button
+            android:id="@+id/button_passport"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="13dp"
+            android:backgroundTint="@color/warm_grey"
+            android:fontFamily="sans-serif"
+            android:text="Copy of your passport"
+            android:textColor="#0B0A0A"
+            android:textSize="12sp"
+            app:cornerRadius="20dp"
+            app:iconTint="@color/warm_grey" />
+
+        <Button
+            android:id="@+id/button_measles"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="13dp"
+            android:backgroundTint="@color/warm_grey"
+            android:fontFamily="sans-serif"
+            android:text="Two-staged vaccination against measles"
+            android:textColor="#0B0A0A"
+            android:textSize="12sp"
+            app:cornerRadius="20dp"
+            app:iconTint="@color/warm_grey" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
